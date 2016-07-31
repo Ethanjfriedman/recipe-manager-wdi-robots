@@ -22,7 +22,6 @@ app.use(bodyParser.json());
 
 // router -- ALL ROUTES STARTING WITH /api/v1/recipes
 // get routed to './recipesController' to use!
-
 app.use('/api/v1/recipes', recipesController);
 
 // info page

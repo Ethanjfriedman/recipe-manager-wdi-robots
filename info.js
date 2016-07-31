@@ -1,3 +1,5 @@
+// info object to be returned on GET request to '/'.
+
 module.exports = {
   description: 'recipe collection api',
   routes: {
@@ -10,7 +12,7 @@ module.exports = {
     viewInfo: 'GET /' },
   apiInfo: {
     author: 'ethan friedmam',
-    url: 'TBD',
+    url: 'https://mighty-stream-47210.herokuapp.com',
     createdOn: 'July 29, 2016',
-    githubRepo: 'TB' },
+    githubRepo: 'https://github.com/Ethanjfriedman/recipe-manager-wdi-robots.git' },
 };
